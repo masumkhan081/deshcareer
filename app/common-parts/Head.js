@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React, { useCallback, useState } from "react";
-import Logo from "./resource/deshcareer-logo.png";
+import Logo from "../resource/deshcareer-logo.png";
 
 export default function Head() {
   const [display, setDisplay] = useState("hidden");

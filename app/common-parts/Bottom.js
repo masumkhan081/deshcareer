@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
-import Logo from "./resource/deshcareer-logo.png";
+import Logo from "../resource/deshcareer-logo.png";
 
 export default function Bottom() {
   const btm_link_cls_names =

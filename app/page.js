@@ -1,10 +1,11 @@
 import Image from "next/image";
 import { AiTwotoneMail } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
+import ContactUs from "./common-parts/ContactUs";
 
 export default function Home() {
   return (
-    <main className="container h-full w-full mx-auto transition-opacity pt-10 sm:px-0 px-2">
+    <main className="container h-full w-full mx-auto transition-opacity pt-10 sm:px-0 px-2 md:my-18 sm:my-10  my-4">
       <h1 className="text-4xl text-orange-900 font-bold font-sans">
         Get Smarter About Your Career
       </h1>
@@ -35,6 +36,7 @@ export default function Home() {
         unsubscribe from these communications at any time. For more information,
         check out our Privacy Policy.
       </span>
+      <ContactUs props=" h-fit  mt-24 bg-yellow-50 " />
     </main>
   );
 }

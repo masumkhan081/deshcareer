@@ -1,5 +1,5 @@
-import Head from "./Head";
-import Bottom from "./Bottom";
+import Head from "./common-parts/Head";
+import Bottom from "./common-parts/Bottom";
 import { FaFacebook, FaYoutube, FaLinkedin } from "react-icons/fa";
 import "./globals.css";
 
