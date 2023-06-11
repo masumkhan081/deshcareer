@@ -15,7 +15,10 @@ export default function Bottom() {
           <FaFacebook size={30} className="text-amber-700 drop-shadow-md" />
         </a>
         <a href="https://www.youtube.com/channel/UCQB33GJ0C3pL3IpxpVFQS2Q">
-          <FaYoutube size={34} className="text-amber-700 drop-shadow-md" />
+          <FaYoutube
+            size={34}
+            className="text-amber-700 drop-shadow-md "
+          />
         </a>
         <a
           href="https://www.linkedin.com/company/deshcareer"
@@ -40,7 +43,7 @@ export default function Bottom() {
         </div>
 
         <div className="flex flex-col gap-y-3">
-          <span className="block text-center text-amber-700 font-bold text-xl drop-shadow-md">
+          <span className="block text-center text-teal-700 font-bold text-xl drop-shadow-md">
             Privacy And Terms
           </span>
           <ul className="flex flex-col justify-center  items-center gap-2  py-2">
@@ -51,24 +54,24 @@ export default function Bottom() {
               <a href="/terms-condition">Terms Condition</a>
             </li>
             <li className={btm_link_cls_names}>
-              <a href="/privacy-policy">FAQ</a>
+              <a href="/faqs">FAQ</a>
             </li>
           </ul>
         </div>
 
         <div className="flex flex-col gap-y-3">
-          <span className="block text-center text-amber-700 font-bold text-xl drop-shadow-md">
+          <span className="block text-center text-teal-700 font-bold text-xl drop-shadow-md">
             Support
           </span>
           <ul className="flex flex-col justify-center  items-center gap-2 py-2">
             <li className={btm_link_cls_names}>
-              <a href="/terms-condition">Terms</a>
+              <a href="/affiliate-link">Affiliate Link</a>
             </li>
             <li className={btm_link_cls_names}>
-              <a href="/terms-condition">Cookie Policy</a>
+              <a href="/contact-us">Contact us</a>
             </li>
             <li className={btm_link_cls_names}>
-              <a href="/privacy-policy">Privacy</a>
+              <a href="/advertisement">Advertise with us</a>
             </li>
           </ul>
         </div>

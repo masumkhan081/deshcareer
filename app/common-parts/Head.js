@@ -19,7 +19,7 @@ export default function Head() {
   );
 
   const head_link_cls_names =
-    "sm:w-fit w-1/2 px-2 rounded-lg drop-shadow-lg hover:shadow-sm hover:bg-yellow-100 font-semibold";
+    "sm:w-fit w-1/2 px-2 rounded-lg drop-shadow-lg  hover:bg-amber-100 hover:text-yellow-700 font-semibold";
 
   return (
     <nav className=" flex items-center justify-between mx-auto flex-wrap py-5 lg:px-8 ">
@@ -73,7 +73,7 @@ export default function Head() {
         <div className="sm:text-center lg:my-0 mt-3 mb-3 sm:ps-0 ps-2  ">
           <a
             href="/"
-            className=" text-md px-4 lg:py-2 py-1 rounded-lg text-amber-700 font-bold outline-double hover:bg-yellow-100 "
+            className=" text-md px-4 lg:py-2 py-1 rounded-lg text-amber-700 font-bold outline-amber-600 outline-double hover:bg-teal-600 hover:text-yellow-400"
           >
             Join Now
           </a>
